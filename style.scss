@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    }
+
+h1{
+    height: 100px;
+    background-color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: auto;    
+    font-family: 'Merienda', cursive;
+}
+    #bookshelf{
+    background-color: burlywood;
+    height: 400px;
+    font-family: 'Merienda', cursive;
+   
+
+.book{
+    height: 150px;
+    width: 150px;
+    font-family: 'Merienda', cursive;
+    background-color: black;
+    color: beige;
+    border-radius: 10%; 
+    padding: 10px;
+    margin: 10px;
+    float:left;
+
+    
+}
+
+#delete-book, #read-unread{
+    float: right;
+    padding: 2pt;
+    cursor: pointer;
+    color: beige;
+}
+}
+.book-formular{
+    background-color: brown;
+    height: 200pt;        
+    padding: 20px;
+    position:absolute;
+    transform: scale(0);
+    top: 30%;
+    right: 10px;
+    left: 10px;
+    transition: transform 300ms ease-in-out;
+    &.show-form{
+        transform: scale(1);
+    }
+
+    .formular_heading{
+        font-size: 24pt;    
+        text-align: center;
+        font-family: 'Merienda', cursive;
+    }
+    .register{
+        font-size: 18pt;        
+        padding-top: 20px;
+        font-family: 'Merienda', cursive;
+
+    }
+    input[type=text], input[type=number]{
+        width: 100%;
+        margin: 3pt;
+        font-size: 14pt;
+        }
+ .btn_cancel, .btn_add{
+           margin-top: 20pt;
+            float:right;
+            padding: 3pt;
+            margin-left: 3pt;
+            font-size: 14pt;
+            background-color: burlywood;
+            color:black;
+            border-radius: 5pt;
+            font-family: 'Merienda', cursive;
+            border: 1pt solid black;
+            cursor: pointer;
+        }
+}
+#plus{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 30pt;
+    background-color: brown;
+    color: black;
+    border-radius: 1000%;
+    border: none;
+    font-size: 25pt;
+    cursor: pointer;
+
+}

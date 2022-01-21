@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+}
+
+h1 {
+  height: 100px;
+  background-color: brown;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  font-family: 'Merienda', cursive;
+}
+
+#bookshelf {
+  background-color: burlywood;
+  height: 400px;
+  font-family: 'Merienda', cursive;
+}
+
+#bookshelf .book {
+  height: 150px;
+  width: 150px;
+  font-family: 'Merienda', cursive;
+  background-color: black;
+  color: beige;
+  border-radius: 10%;
+  padding: 10px;
+  margin: 10px;
+  float: left;
+}
+
+#bookshelf #delete-book, #bookshelf #read-unread {
+  float: right;
+  padding: 2pt;
+  cursor: pointer;
+  color: beige;
+}
+
+.book-formular {
+  background-color: brown;
+  height: 200pt;
+  padding: 20px;
+  position: absolute;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  top: 30%;
+  right: 10px;
+  left: 10px;
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+}
+
+.book-formular.show-form {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.book-formular .formular_heading {
+  font-size: 24pt;
+  text-align: center;
+  font-family: 'Merienda', cursive;
+}
+
+.book-formular .register {
+  font-size: 18pt;
+  padding-top: 20px;
+  font-family: 'Merienda', cursive;
+}
+
+.book-formular input[type=text], .book-formular input[type=number] {
+  width: 100%;
+  margin: 3pt;
+  font-size: 14pt;
+}
+
+.book-formular .btn_cancel, .book-formular .btn_add {
+  margin-top: 20pt;
+  float: right;
+  padding: 3pt;
+  margin-left: 3pt;
+  font-size: 14pt;
+  background-color: burlywood;
+  color: black;
+  border-radius: 5pt;
+  font-family: 'Merienda', cursive;
+  border: 1pt solid black;
+  cursor: pointer;
+}
+
+#plus {
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 30pt;
+  background-color: brown;
+  color: black;
+  border-radius: 1000%;
+  border: none;
+  font-size: 25pt;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
